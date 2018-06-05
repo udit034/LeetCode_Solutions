@@ -3,7 +3,7 @@ class Solution {
         List<List<Integer>> res = new ArrayList<>();
         HashSet< String > dup = new HashSet< String >();
         
-        Arrays.sort( nums );
+        Arrays.sort( nums ); 
         
         boolean flag = true;
         for( int i = 0; i < nums.length; i++ )
@@ -15,7 +15,7 @@ class Solution {
                         r.add(0 );
                         r.add(0 );
                         r.add( 0 );
-                        res.add( r );
+                        res.add(r );
                         return res;
         }
         
